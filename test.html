@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comecando</title> <!-- Titulo da pagina -->
+</head> <!-- Aqui é o cabeçalho -->
+<body> <!-- Aqui vai o conteudo da pagina -->
+    <h1>Olá Mundo!!!</h1> <!-- <h1>,<h2> É usado para titulos -->
+    <hr> <!-- <hr> É usado para criar uma linha -->
+    <input type="text"> <!-- <input> É usado para criar um campo de texto -->
+    <button>ENTER</button> <!-- <button> É usado para criar um botão -->
+    <br> <!-- <br> É usado para pular uma linha -->
+    <hr>
+    <a href="https://www.devmedia.com.br/o-que-e-o-html5/25820"><img src="./files/1.png" alt="irineu"> <!-- <img> É usado para criar/por uma imagem --></a>
+    <hr>
+    <a href="https://www.devmedia.com.br/o-que-e-o-html5/25820"><img src="./files/2.png" alt="irineu"> <!-- <img> É usado para criar/por uma imagem --></a>
+    <hr>
+    
+    <div class="carrinho" data-id="cart1" style="color:aqua">
+
+        <h2>Tema</h2>
+
+    </div>  
+
+    <div class="carrinho"> <!-- <div> É usado para criar uma divisão --> <!-- class="carrinho" É usado para criar uma classe --> <!-- Á Classe é usada pata aplicar estilo css e acessar no java script-->
+
+        <p>Olá Mundo!!!
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been <em>the industry's standard dummy text ever since the 1500s</em>, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+        </p> <!-- <p> É usado para criar um paragrafo --> 
+        <p>
+            It has survived <strong>not</strong> only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of <b>Lorem Ipsum</b>.
+        </p>
+        <h4>Saiba mais <a href="">clicando aqui.</a></h4>
+        
+        
+    </div>
+
+    <table>
+        <caption>Pessoas por idade</caption> <!--caption É usado para criar um titulo para a tabela -->
+        <thead> <!--thead É usado para criar o cabeçalho da tabela -->
+            <tr> <!--tr É usado para criar uma linha na tabela -->
+                <th>Nome</th> <!--th É usado para criar uma coluna -->
+                <th>Idade</th>
+                <th>Sexo</th>
+            </tr>
+        </thead>
+        <tbody> <!--tbody É usado para criar o corpo da tabela -->
+            <tr>
+                <td>João</td> <!--td É usado para criar uma coluna -->
+                <td>20</td>
+                <td>Masculino</td>
+            </tr>
+            <tr>
+                <td>Maria</td>
+                <td>25</td>
+                <td>Feminino</td>
+            </tr>
+        </tbody>
+        <tfoot> <!--tfoot É usado para criar o rodapé da tabela -->
+            <tr>
+                <td colspan="3">Total de pessoas: 2</td> <!--colspan É usado para juntar colunas -->
+            </tr>
+    </table>
+    <hr>
+    
+    <table>
+        <caption>Lojas</caption>
+
+
+        <colgroup>
+            <col>
+            <col span="2" style="background-color: blue">
+            <col span="2" style="background-color: green;">
+        </colgroup>
+
+        <thead>
+            <tr>
+            <th rowspan="2"></th>
+            <th colspan="2" scope="colgroup">LS</th>
+            <th colspan="2" scope="colgroup">DL</th>
+            </tr>
+            <tr>
+                <th scope="col">Produzidos</th>
+                <th scope="col">Vendidos</th>
+                <th scope="col">Produzidos</th>
+                <th scope="col">Vendidos</th>
+            </tr>
+        </thead>
+        
+        <tbody>
+            <tr>
+                <th scope="row">Camisas</th>
+                <td>100</td>
+                <td>80</td>
+                <td>90</td>
+                <td>70</td>    
+            </tr>
+
+            <tr>
+                <th scope="row">Calças</th>
+                <td>100</td>
+                <td>100</td>
+                <td>90</td>
+                <td>85</td>
+            
+
+        </tbody>
+    </table>
+
+</body>
+</html>
